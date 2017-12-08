@@ -13,8 +13,14 @@ var UserSchema = mongoose.Schema({
 	email: {
 		type: String
 	},
+	number: {
+		type: String
+	},
 	name: {
 		type: String
+	},
+	isSam: {
+		type: Boolean
 	}
 });
 
